@@ -58,11 +58,8 @@ const setContainer = (flipArray) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const flipArray = Array.from(flipContainer);
-
-    shuffleArray(flipArray);
-    
+    shuffleArray(flipArray);    
     setContainer(flipArray);
-
 });
 
 
